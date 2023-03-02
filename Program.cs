@@ -16,6 +16,9 @@ namespace lab1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //创建什么窗口程序 就实例化
+            Application.Run(new Sort());
+            Application.Run(new Profit());
             Application.Run(new Form1());
         }
     }
